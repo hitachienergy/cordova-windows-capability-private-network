@@ -1,6 +1,6 @@
 {
   "name": "cordova-windows-capability-private-network",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds private network access to Cordova Windows applications.",
   "cordova": {
     "id": "cordova-windows-capability-private-network",
@@ -15,5 +15,7 @@
   "keywords": [
     "ecosystem:cordova",
     "cordova-windows"
-  ]
+  ],
+  "author": "ABB",
+  "license": "MIT"
 }
