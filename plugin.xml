@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-windows-capability-private-network"
+    version="1.0.0">
+
+    <name>Windows Add internetClientServer and privateNetworkClientServer capabilities</name>
+    <description>Add internetClientServer and privateNetworkClientServer Capability to appxmanifest</description>
+
+    <!-- windows -->
+    <platform name="windows">
+        <config-file target="package.appxmanifest" parent="/Package/Capabilities">
+            <Capability Name="internetClientServer" />
+            <Capability Name="privateNetworkClientServer" />
+        </config-file>
+    </platform>
+</plugin>

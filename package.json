@@ -1,0 +1,19 @@
+{
+  "name": "cordova-windows-capability-private-network",
+  "version": "1.0.0",
+  "description": "Adds private network access to Cordova Windows applications.",
+  "cordova": {
+    "id": "cordova-windows-capability-private-network",
+    "platforms": [
+      "windows"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bend-up/cordova-windows-capability-private-network"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-windows"
+  ]
+}
